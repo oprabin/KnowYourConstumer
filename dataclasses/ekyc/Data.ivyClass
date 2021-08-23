@@ -1,0 +1,17 @@
+Data #class
+'User Registration Required' #classComment
+ekyc #namespace
+OrganizationName String #field
+OrganizationName PERSISTENT #fieldModifier
+Email String #field
+Email PERSISTENT #fieldModifier
+ContactNumber Number #field
+ContactNumber PERSISTENT #fieldModifier
+ZipCode Number #field
+ZipCode PERSISTENT #fieldModifier
+State String #field
+State PERSISTENT #fieldModifier
+Password String #field
+Password PERSISTENT #fieldModifier
+OTP Number #field
+OTP PERSISTENT #fieldModifier

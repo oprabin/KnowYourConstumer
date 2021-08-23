@@ -1,0 +1,8 @@
+LoginData #class
+ekyc.Login #namespace
+Email String #field
+Email PERSISTENT #fieldModifier
+Password String #field
+Password PERSISTENT #fieldModifier
+OTP Number #field
+OTP PERSISTENT #fieldModifier
