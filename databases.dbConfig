@@ -1,2 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<databaseconfigs/>
+<databaseconfigs>
+    <databaseconfig name="user-information-config" url="jdbc:mysql://localhost/store_user_info" driver="com.mysql.jdbc.Driver" user="regsiter" password="\u0093\u0098\u003A\u00F2\u0089\u009E\u004F\u004C\u008B\u008A\u009F\u00F2\u008E\u004C\u0071\u0057\u00D0\u00A2\u0028\u009C\u00ED\u0068\u00A5\u0053\u00F5\u00D3\u0046\u00BF\u0019\u00D0\u0056\u0037"/>
+    <databaseconfig name="hawa" url="jdbc:postgresql://null" driver="org.postgresql.Driver" user="" password=""/>
+</databaseconfigs>

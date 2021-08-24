@@ -7,7 +7,7 @@
 	xmlns:pe="http://primefaces.org/ui/extensions">
 <h:body>
 	<ui:composition template="/layouts/basic-8.xhtml">
-		<ui:define name="title">Login</ui:define>
+		<ui:define name="title">login_window</ui:define>
 		<ui:define name="content">
 
 			<h3>
@@ -23,14 +23,11 @@
 						ui-g-12 ui-md-3 ui-lg-2, 
 						ui-g-12 ui-md-9 ui-lg-4">
 
-					<p:outputLabel for="email" value="Email"/>
-					<p:inputText id="email" value="#{data.Email}"></p:inputText>
-
-					<p:outputLabel for="password" value="Password"/>
-					<p:inputText id="password" value="#{data.Password}"></p:inputText>
-
-					<p:outputLabel for="oTP" value="OTP"/>
-					<p:inputText id="oTP" value="#{data.OTP}"></p:inputText>
+					<p:outputLabel for="login_email" value="Login _ email"/>
+					<p:inputText id="login_email" value="#{data.login_email}"></p:inputText>
+					
+					<p:outputLabel for="login_password" value="Login _ password"/>
+					<p:inputText id="login_password" value="#{data.login_password}"></p:inputText>
 
 				</p:panelGrid>
 				<br />

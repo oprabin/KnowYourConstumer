@@ -15,3 +15,11 @@ Password String #field
 Password PERSISTENT #fieldModifier
 OTP Number #field
 OTP PERSISTENT #fieldModifier
+login_email String #field
+login_email PERSISTENT #fieldModifier
+login_password String #field
+login_password PERSISTENT #fieldModifier
+password_from_db String #field
+password_from_db PERSISTENT #fieldModifier
+login_successful Boolean #field
+login_successful PERSISTENT #fieldModifier

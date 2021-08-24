@@ -1,0 +1,6 @@
+login_windowData #class
+ekyc.login_window #namespace
+login_email String #field
+login_email PERSISTENT #fieldModifier
+login_password String #field
+login_password PERSISTENT #fieldModifier
